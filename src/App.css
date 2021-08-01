@@ -23,21 +23,22 @@ p{
   padding:0rem 1rem;
   color:var(--secondary-color)
 }
-.label{
+.label,.cashGiven{
   font-size: 23px;
   padding: 1rem;
 }
-input{
+#cashAmt,#billAmt{
   display: block;
   margin:auto;
   margin-top: .9rem;
   padding: 1rem;
-  width: 90%;
+  width: 80%;
+ 
   border-radius: 4rem;
   border: none;
   
 }
-#next{
+#next,#submit{
   padding: .5rem 2rem;
   font-size: 15px;
   margin-top: .7rem;
