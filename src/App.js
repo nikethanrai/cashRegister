@@ -20,12 +20,16 @@ function App() {
     } else {
       setText('the bill amount should be greater than 0')
     }
-    if (billAmt < cash) {
+    if (Number(billAmt) < Number(cash)) {
       setCompare('')
-      console.log('all good')
+      
     } else {
       setCompare('Cash lesser than bill')
     }
+  }
+
+  function calculateChange(){
+    
   }
 
   return (
