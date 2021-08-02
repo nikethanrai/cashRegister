@@ -8,29 +8,32 @@ function App() {
   const [cash, setCash] = useState('')
   const [text, setText] = useState('')
   const [compare, setCompare] = useState('')
+  const [num,setNum]=([])
 
   function billInputHandler(input) {
     setbillAmt(input.target.value)
   }
   
   function validateAmt() {
+    console.log(num)
     if (billAmt > 0) {
       setText('')
 
     } else {
-      setText('the bill amount should be greater than 0')
+      setText('Tf are you putting amount lesser than 0')
     }
     if (Number(billAmt) < Number(cash)) {
       setCompare('')
       
     } else {
-      setCompare('Cash lesser than bill')
+      setCompare('Do you wanna wash plates?')
     }
   }
 
-  function calculateChange(){
+  
+
     
-  }
+  
 
   return (
     <div className="App">
@@ -46,7 +49,7 @@ function App() {
       <p id='error-msg'>{compare}</p>
       <button onClick={() => { validateAmt()}} id='submit'>Submit</button>
 
-      <Table />
+      <Table num={num} setNum={setNum}/>
 
     </div>
   );
