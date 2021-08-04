@@ -8,7 +8,7 @@ function calculateChange(amtToBeReturned){
     for (let i=0;i<notesAvlb.length;i++){
         const numberOfNotes=Math.trunc(amtToBeReturned/notesAvlb[i])
         amtToBeReturned%=notesAvlb[i]
-        setNum([...num,])
+        setNum([])
         
 
 
