@@ -41,7 +41,7 @@ function App() {
     
   }
   function differ(){
-    if (Number(Cash)>=Number(billAmt)){
+    if (Number(cash)>=Number(billAmt)){
       setDiff(cash-billAmt)
     }else{
       setDiff('')
