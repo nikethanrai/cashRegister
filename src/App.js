@@ -94,13 +94,13 @@ function App() {
         <caption>Return Change:&ensp; {diff} </caption>
         <tr>
           <th>No. of Notes</th>
-          {num.map(item => <td>&ensp;{item}</td>)}
+          {num.map(item => <td>{item}</td>)}
 
 
         </tr>
         <tr>
           <th> Notes </th>
-          {notesAvbl.map(item => <td>&ensp;{item}</td>)}
+          {notesAvbl.map(item => <td>{item}</td>)}
 
 
         </tr>

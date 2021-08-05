@@ -66,3 +66,16 @@ caption{
   margin-bottom: 1rem;
   color: var(--secondary-color);
 }
+
+
+th{
+  background: var(--secondary-color);
+  color: rgb(0, 0, 56);
+  padding: .5rem;
+}
+td{
+  background: rgb(128, 155, 199);
+  text-align: center;
+  padding: .5rem;
+
+}
