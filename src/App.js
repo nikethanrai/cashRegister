@@ -32,11 +32,21 @@ function App() {
   
 
   function r(){
-    setNum(v)
-    console.log(num)
+    if (Number(cash)>=Number(billAmt)){
+      setNum(v)
+      console.log(num)
+    }else{
+      setNum([])
+    }
+    
   }
   function differ(){
-    setDiff(cash-billAmt)
+    if (Number(Cash)>=Number(billAmt)){
+      setDiff(cash-billAmt)
+    }else{
+      setDiff('')
+    }
+   
   }
  
 
