@@ -47,10 +47,21 @@ p{
   font-family: 'Montserrat', sans-serif;
   border-radius: .3rem;
   cursor: pointer;
+  margin-bottom: 2rem;
 
   
 
 }
 #error-msg{
   font-size: small;
+}
+.change-table{
+  margin: auto;
+  
+}
+caption{
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
 }
