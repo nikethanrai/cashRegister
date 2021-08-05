@@ -32,7 +32,7 @@ function App() {
   
 
   function r(){
-    if (Number(cash)>=Number(billAmt)){
+    if (Number(cash)>=Number(billAmt) && billAmt>=0 ){
       setNum(v)
       console.log(num)
     }else{
@@ -41,7 +41,7 @@ function App() {
     
   }
   function differ(){
-    if (Number(cash)>=Number(billAmt)){
+    if (Number(cash)>=Number(billAmt) && billAmt>=0){
       setDiff(cash-billAmt)
     }else{
       setDiff('')
