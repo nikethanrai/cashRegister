@@ -70,7 +70,7 @@ function App() {
       setCompare('')
 
     } else {
-      setCompare('Do you wanna wash plates?')
+      setCompare('Do you wanna wash plates? Cash lesser than Bill !!!')
     }
   }
 
