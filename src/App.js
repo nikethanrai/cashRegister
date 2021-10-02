@@ -78,7 +78,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Monay Monay!!</h1>
+      <h1>Monaey Monaey!!</h1>
       <p>Enter the bill amount and the cash given by the customer to know the minimum number of notes to return</p>
       <div className='label'> Bill Amount:
         <input onInput={billInputHandler} type='number' id='billAmt' />
