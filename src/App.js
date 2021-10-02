@@ -63,7 +63,7 @@ function App() {
       setText('')
 
     } else {
-      setText('Tf are you putting amount lesser than 0')
+      setText('Amount lesser than 0')
     }
 
     if (Number(billAmt) < Number(cash)) {
